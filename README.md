@@ -20,7 +20,7 @@
 1. Клонируйте репозиторий:
 
 ```
-git clone https://github.com/username/bench.git
+git clone https://github.com/Arnew7/bench.git
 cd bench
 ```
 Создайте виртуальное окружение и активируйте его:
