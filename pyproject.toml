@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bench"
+version = "1.0"
+description = 'Тестовое задание "Асинхронный HTTP-бенчмарк"'
+authors = ["Anton / arnew07@gmail.com / tg @Arnew7"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2"
+pytest-asyncio = "^0.23"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
