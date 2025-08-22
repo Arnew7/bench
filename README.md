@@ -53,6 +53,7 @@ tests/
 
 requirements.txt
 README.md
+tox.ini
 ```
 Запуск:
 ```
@@ -88,6 +89,15 @@ Unit и End-to-End тесты
 Запуск тестов:
 
 pytest --maxfail=1 --disable-warnings -q
+
+или устанавливаем tox
+
+python3 -m pip install tox
+
+переходим в репозиторий и запускаем тест командой
+
+tox
+
 Все async def тесты обернуты в @pytest.mark.asyncio для корректного выполнения.
 моков
 
